@@ -1,0 +1,3 @@
+criterion=entropy
+max_depth=21
+random_state=42

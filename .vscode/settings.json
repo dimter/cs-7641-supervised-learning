@@ -1,0 +1,50 @@
+{
+    "files.exclude": {
+        "**/__pycache__/": true,
+        "**/*.pyc": true,
+        "venv/": true
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.quickSuggestionsDelay": 10,
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.tabCompletion": "on",
+        "editor.suggest.localityBonus": true,
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.wordBasedSuggestions": true,
+        "editor.parameterHints.enabled": true,
+    },
+    "python.pythonPath": ".venv/bin/python",
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=5000"
+    ],
+    "python.linting.pycodestylePath": "${workspaceFolder}/.venv/bin/pep8",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "${workspaceFolder}/.venv/bin/autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "100",
+        "--aggressive",
+        "--aggressive"
+    ],
+    "python.autoComplete.addBrackets": true,
+    "python.terminal.activateEnvironment": true,
+    "python.linting.pylintEnabled": false,
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.generateDocstringOnEnter": true,
+    "autoDocstring.includeName": false,
+    "autoDocstring.guessTypes": true,
+    "python.analysis.completeFunctionParens": true
+}
